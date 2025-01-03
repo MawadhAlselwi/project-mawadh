@@ -1,0 +1,38 @@
+body
+{
+    background-color:black;
+}
+h2 {
+    position: relative;
+    z-index: 4;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 4px aqua;
+    font-family: 'Times New Roman', 'Times',' serif';
+}
+form{
+    font-size: 18px;
+    font-family: 'Times New Roman', 'Times',' serif';
+    border: solid 1px aqua;
+    color: aqua;
+   }
+   input{
+    width: 335px;
+    font-size: 17px; 
+   }
+   input:hover{
+    border: 2px solid aqua ;
+}
+button {
+    background-color: black;
+    border: solid 1px aqua;
+    color: aqua;
+    transition:.2s; 
+
+  }
+  button:hover{
+    color: black;
+background-color: aqua;
+border: black 1px solid; 
+}
